@@ -2,7 +2,7 @@
   {
     "id": "colosseum",
     "title": "The Colosseum",
-    "slug": "soon",
+    "slug": "colosseum",
     "type": "place",
     "year": "80 AD",
     "image": "coloseum1.png",
@@ -12,7 +12,7 @@
   {
     "id": "forum",
     "title": "The Roman Forum",
-    "slug": "soon",
+    "slug": "roman-forum",
     "type": "place",
     "year": "100–44 BC",
     "image": "IMG_3257.png",
@@ -22,7 +22,7 @@
   {
     "id": "trevi-fountain",
     "title": "Trevi Fountain",
-    "slug": "soon",
+    "slug": "trevi-fountain",
     "type": "place",
     "year": "1732–1762",
     "image": "IMG_2905.png",
@@ -32,7 +32,7 @@
   {
     "id": "Vittorio-emanuele-monument",
     "title": "Vittorio Emanuele II Monument",
-    "slug": "soon",
+    "slug": "vittorio",
     "type": "place",
     "year": "1885",
     "image": "IMG_2914.png",
@@ -42,27 +42,27 @@
     {
     "id": "statue-of-david",
     "title": "Statue of David",
-    "slug": "soon",
+    "slug": "david",
     "type": "place",
     "year": "1501–1504",
-    "image": "IMG_3685.JPEG",
+    "image": "IMG_3685.jpeg",
     "short": "Sculpture by Michelangelo, representing the biblical hero David.",
     "tags": "sculpture, renaissance, italy"
   },
   {
     "id": "san-gimignano",
     "title": "San Gimignano",
-    "slug": "soon",
+    "slug": "gimignano",
     "type": "place",
     "year": "13th century",
-    "image": "IMG_3662.JPEG",
+    "image": "IMG_3662.jpeg",
     "short": "Medieval town in Tuscany, known for its towers and architecture.",
     "tags": "town, medieval, italy"
   },
   {
     "id": "saint-peters-basilica",
     "title": "Saint Peter's basilica",
-    "slug": "soon",
+    "slug": "st-peter-bas",
     "type": "place",
     "year": "17th century",
     "image": "IMG_3338.JPEG",
@@ -72,7 +72,7 @@
   {
     "id": "saint-marks-square",
     "title": "Saint Marks Square",
-    "slug": "soon",
+    "slug": "st-marks",
     "type": "place",
     "year": "9th century",
     "image": "IMG_3871.JPEG",
@@ -82,7 +82,7 @@
   {
     "id": "doge-palace",
     "title": "Doges Palace",
-    "slug": "soon",
+    "slug": "doge-pal",
     "type": "place",
     "year": "9th century",
     "image": "IMG_4012.JPEG",
@@ -92,7 +92,7 @@
   {
     "id": "saint-marks-basilica",
     "title": "Saint Marks Basilica",
-    "slug": "soon",
+    "slug": "st-mark-bas",
     "type": "place",
     "year": "828 AD",
     "image": "IMG_3865.JPEG",
@@ -102,7 +102,7 @@
   {
     "id": "tower-of-pisa",
     "title": "Leaning Tower of Pisa",
-    "slug": "soon",
+    "slug": "pisa",
     "type": "place",
     "year": "14th century",
     "image": "IMG_3793.JPEG",
@@ -112,7 +112,7 @@
   {
     "id": "pisa-cathedral",
     "title": "The Cathedral of Pisa",
-    "slug": "soon",
+    "slug": "pisa-cath",
     "type": "place",
     "year": "14th century",
     "image": "IMG_3784.JPEG",
@@ -120,3 +120,4 @@
     "tags": "cathedral, gothic, italy"
   }
 ]
+
