@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Created by WolfStudios - Nicholas Machan">
+    <title>The Ancient Archive - Leaning tower of Pisa</title>
+    <link rel="stylesheet" href="global.css">
+    <script src="private.js"></script>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+        }
+
+        header {
+            text-align: center;
+            background-color: #222;
+            background:linear-gradient(180deg,rgba(107,63,42,0.9),rgba(107,63,42,0.7)),url('homelander.png');
+            color: #fff;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        .cover-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            display: block;
+        }
+
+        main {
+            display: flex;
+            max-width: 1200px;
+            margin: 20px auto;
+            gap: 20px;
+            padding: 0 15px;
+        }
+
+        article {
+            flex: 3;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        article h2 {
+            margin-bottom: 10px;
+            color: #444;
+        }
+
+        article p {
+            margin-bottom: 15px;
+        }
+
+        aside {
+            flex: 1;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        aside h3 {
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        aside ul {
+            list-style: none;
+        }
+
+        aside ul li {
+            margin-bottom: 8px;
+            padding-left: 15px;
+            position: relative;
+        }
+
+        aside ul li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #ff6600;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #222;
+            color: #fff;
+            margin-top: 20px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            main {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Project Ancient</h1>
+        <p>The largest original project you'll ever find!</p>
+        <a href="index.html">Home</a>
+    </header>
+
+    <!-- Cover photo -->
+    <img src="IMG_3793.JPEG" alt="Cover Image" class="cover-image">
+
+    <main>
+        <article>
+            <h2>Leaning tower of Pisa</h2>
+            <p><em>Published on April 12, 2026</em></p>
+
+            <p>
+                The Leaning tower of Pisa is famous and has gained world-wide attention due to
+                the famous leaning. The tower was built in the 12th century on soft ground,
+                which over time caused unstable soil making it lean on a ~4 degree angle.
+            </p>
+            <p>
+                The construction of the tower took almost 200 years, and was built next to the cathedral
+                of pisa. After hundreds of years, architects from around the world have helped ensure the 
+                tower does not fall. 
+            </p>
+            <p>
+                Today, thousands of tourists go to the leaning tower of pisa to admire its beauty,
+                and to take the classic photo that has not changed in centuries: holding to the tower.
+                There have been different styles, but the same concept has been used almost always.
+            </p>
+        </article>
+
+        <!-- Sidebar -->
+        <aside>
+            <h3>Data</h3>
+            <ul>
+                <li>Location: Pisa, Italy</li>
+                <li>Built: 1173–1372</li>
+                <li>Height: ~56 meters</li>
+                <li>Famous For: Tilted structure</li>
+                <li>Status: Bell tower</li>
+            </ul>
+
+            <h3>Data from 2025</h3>
+            <ul>
+                <li>Total Visitors: ~5 Million</li>
+                <li>Daily Visitors: ~13,000</li>
+                <li>Peak Days: ~20,000+</li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        &copy; 2026 Project Ancient. All rights reserved.
+    </footer>
+
+</body>
+</html>
