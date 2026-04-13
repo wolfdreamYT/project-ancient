@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Created by WolfStudios - Nicholas Machan">
+    <title>The Ancient Archive - Vittorio Emanuele II Monument</title>
+    <link rel="stylesheet" href="global.css">
+    <script src="private.js"></script>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+        }
+
+        header {
+            text-align: center;
+            background-color: #222;
+            background:linear-gradient(180deg,rgba(107,63,42,0.9),rgba(107,63,42,0.7)),url('homelander.png');
+            color: #fff;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        .cover-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            display: block;
+        }
+
+        main {
+            display: flex;
+            max-width: 1200px;
+            margin: 20px auto;
+            gap: 20px;
+            padding: 0 15px;
+        }
+
+        article {
+            flex: 3;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        article h2 {
+            margin-bottom: 10px;
+            color: #444;
+        }
+
+        article p {
+            margin-bottom: 15px;
+        }
+
+        aside {
+            flex: 1;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        aside h3 {
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        aside ul {
+            list-style: none;
+        }
+
+        aside ul li {
+            margin-bottom: 8px;
+            padding-left: 15px;
+            position: relative;
+        }
+
+        aside ul li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #ff6600;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #222;
+            color: #fff;
+            margin-top: 20px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            main {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Project Ancient</h1>
+        <p>The largest original project you'll ever find!</p>
+        <a href="index.html">Home</a>
+    </header>
+
+    <!-- Cover photo -->
+    <img src="IMG_2914.JPEG" alt="Cover Image" class="cover-image">
+
+    <main>
+        <article>
+            <h2>Vittorio Emanuele II Monument</h2>
+            <p><em>Published on April 1, 2026</em></p>
+            <p>
+              The Vittorio Emanuele II Monument is a famous monument and was built to honor
+              Victor Emmanuel II, the first king of unified italy. The monument features a museum
+              and the famous Tomb of the Unknown Soldier.
+            </p>
+            <p>
+               The Tomb of the Unknwon soldier is constantly guarded by guards 24/7, with an
+               eternal flame to honor those who went to war and never came back and who were
+               forgotton.
+            </p>
+            <p>
+                When building the Vittorio Emanuele II Monument, they had to demolish old
+                medieval and ancient buildings on capitoline hill to be able to build the full monument.
+                The famous bronze Statue of Victor Emmanuel II on the horse is one of the largest equestrian 
+                statues in the world, making 50 years of construction worth it.
+            </p>
+        </article>
+
+        <!-- Sidebar -->
+        <aside>
+            <h3>Data</h3>
+            <ul>
+                <li>Built in: 1885-1935</li>
+                <li>Built By: Multiple Architects</li>
+                <li>Designed by: Giuseppe Sacconi</li>
+                <li>Honored to: Victor Emmanuel II</li>
+                <li>Width: 443 feet</li>
+                <li>Height: 230 feet</li>
+            </ul>
+
+            <h3>Data from 2025</h3>
+            <ul>
+                <li>Total Tourists: ~4 Million</li>
+                <li>Daily Tourists: ~12,000</li>
+                <li>Peak Days: ~15,000</li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        &copy; 2026 Project Ancient. All rights reserved.
+    </footer>
+
+</body>
+</html>

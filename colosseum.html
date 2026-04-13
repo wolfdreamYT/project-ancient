@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Created by WolfStudios - Nicholas Machan">
+    <title>The Ancient Archive - The Colosseum</title>
+    <link rel="stylesheet" href="global.css">
+    <script src="private.js"></script>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+        }
+
+        header {
+            text-align: center;
+            background-color: #222;
+            background:linear-gradient(180deg,rgba(107,63,42,0.9),rgba(107,63,42,0.7)),url('homelander.png');
+            color: #fff;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        .cover-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            display: block;
+        }
+
+        main {
+            display: flex;
+            max-width: 1200px;
+            margin: 20px auto;
+            gap: 20px;
+            padding: 0 15px;
+        }
+
+        article {
+            flex: 3;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        article h2 {
+            margin-bottom: 10px;
+            color: #444;
+        }
+
+        article p {
+            margin-bottom: 15px;
+        }
+
+        aside {
+            flex: 1;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        aside h3 {
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        aside ul {
+            list-style: none;
+        }
+
+        aside ul li {
+            margin-bottom: 8px;
+            padding-left: 15px;
+            position: relative;
+        }
+
+        aside ul li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #ff6600;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #222;
+            color: #fff;
+            margin-top: 20px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            main {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Project Ancient</h1>
+        <p>The largest original project you'll ever find!</p>
+        <a href="index.html">Home</a>
+    </header>
+
+    <!-- Cover photo -->
+    <img src="coloseum1.png" alt="Cover Image" class="cover-image">
+
+    <main>
+        <article>
+            <h2>The Colosseum</h2>
+            <p><em>Published on March 31, 2026</em></p>
+            <p>
+                The Colosseum was built around 80 CE, and was made for gladiator fights, 
+                public events, and executions. It was big enough to hold up to 80,000 spectators, and had 
+                an average capacity of 65,000 spectators. It had advanced architecture and technology, with 
+                trap doors, levers, and more.
+            </p>
+            <p>
+               The Colosseum is roughly 48 meters (157 feet) and is made of limestone, tuff 
+               (which is volcanic rock), and roman concrete (opus caementicium).
+            </p>
+            <p>
+            The colosseum had 80 verticle shafts and trap doors which allowed dramatic entrances of 
+            animals and gladiators. The architecture was strong enough to withstand earthquakes and 
+            thousands of years which is why it is so famous, gaining millions of tourists every year.
+            </p>
+        </article>
+
+        <!-- Sidebar -->
+        <aside>
+            <h3>Data</h3>
+            <ul>
+                <li>Built in: 80 CE</li>
+                <li>Capacity: 80,000</li>
+                <li>Average Capacity: 65,000</li>
+                <li>Height: 48 Meters</li>
+                <li>Size: 620x513 feet</li>
+                <li>Perimeter: 1,788 feet</li>
+            </ul>
+
+            <h3>Data from 2025</h3>
+            <ul>
+                <li>Total Tourists: 14-15 Million</li>
+                <li>Daily Tourists: 20,000-25,000</li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        &copy; 2026 Project Ancient. All rights reserved.
+    </footer>
+
+</body>
+</html>
